@@ -46,7 +46,7 @@ class _CommentByIdScreenState extends State<CommentByIdScreen> {
             TextField(
               controller: idController,
               decoration: const InputDecoration(
-                labelText: 'Saisir l\'ID du post',
+                labelText: 'Saisir l\'ID du commentaire',
                 border: OutlineInputBorder(),
               ),
               keyboardType: TextInputType.number,
